@@ -43,9 +43,5 @@ steps:
   - '80'
 images:
       - 'gcr.io/yougo-k8-hardway-256417/nginx-alpine:$COMMIT_SHA'
-- name: 'gcr.io/cloud-builders/gcloud'
-  entrypoint: 'bash'
-  args:
-  - '-c'
-  - |
-      gcloud builds triggers run 9097333f-bb12-482b-a5f6-0fc59e64278c --project yougo-k8-hardway-256417
+      
+

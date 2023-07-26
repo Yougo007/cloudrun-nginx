@@ -36,7 +36,7 @@ steps:
   - '--image'
   - 'gcr.io/yougo-k8-hardway-256417/nginx-alpine:$COMMIT_SHA'
   - '--region'
-  - 'europe-west1'
+  - 'europe-west2'
   - '--platform'
   - 'managed'
   - '--port'

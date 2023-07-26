@@ -49,4 +49,4 @@ images:
   args:
     - '-c'
     - |
-      gcloud builds triggers run 9c64695a-5fb7-4d61-a5d0-4770e24ce62b --project yougo-k8-hardway-256417
+      gcloud builds triggers run 9097333f-bb12-482b-a5f6-0fc59e64278c --project yougo-k8-hardway-256417

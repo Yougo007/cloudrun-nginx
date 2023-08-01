@@ -43,5 +43,14 @@ steps:
   - '80'
 images:
       - 'gcr.io/yougo-k8-hardway-256417/nginx-alpine:$COMMIT_SHA'
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  id: 'Deploying nginx-alphine'
+  entrypoint: gcloud
+  args:
+  - 'beta'
+  - 'triggers'
+  - 'run'
+  - '9097333f-bb12-482b-a5f6-0fc59e64278c'
       
 
